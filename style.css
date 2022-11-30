@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-main {
+    display: flex;
+}
+
+.img-sect {
+    width: 40%;
+    height: 100vh;
+    background-color: #2D85DE;
+}
+
+.form-sect {
+    width: 60%;
+    background-image: url(images/spec.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-sect img {
+    width: 430px;
+    margin: 140px 70px;
+}
+
+.form-sect h2 {
+    font-family: 'Short Stack';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.form-input {
+    width: 470px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.sign-in {
+    height: 350px;
+    margin-top: 70px;
+}
+
+.form-label {
+    font-family: 'Short Stack';
+    font-size: 20px;
+    display: inline-block;
+    margin: 40px 40px 10px 40px;
+}
+
+.input-area {
+    font-family: 'Short Stack';
+    font-size: 15px;
+    display: block;
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 40px 10px 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form-label2 {
+    margin-top: 10px;
+}
+
+.signup-btn {
+    margin: 10px 40px 20px 40px;
+    width: 80%;
+    height: 45px;
+    font-family: 'Short Stack';
+    background-color: #2D85DE;
+    border-radius: 10px;
+    border: none;
+}
+
+@media screen and (max-width: 956px) {
+    .img-sect {
+        display: none;
+    }
+
+    .form-sect {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .form-sect {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form-sect h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .form-input {
+        margin-left: 40px;
+        width: 80%;
+        padding-right: 20px;
+    }
+
+    .form-label {
+        font-size: 15px;
+    }
+
+}
