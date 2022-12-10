@@ -165,24 +165,6 @@ body {
 
 }
 
-/* @media screen and (min-width: 2000px){
-    .img-sect {
-        width: 0%;
-    }
-
-    .form-sect {
-        width: 80%;
-        height: 100vh;
-    }
-
-    .form-input {
-        height: 500px;
-        margin-top: 0px;
-        width: 430px;
-        margin-left: 300px;
-    }
-
-    .form-sect h2 {
-        margin-top: 0;
-    }
-} */
+.spin {
+    display: none;
+}
